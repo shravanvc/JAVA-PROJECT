@@ -3,20 +3,20 @@ import java.util.Locale;
 public class String_methods {
     public static void main(String[] args) {
         String name = "Shravan";
-//        System.out.println(name);
-        //int value = name.length();
-        //System.out.println(value);
+        System.out.println(name);
+        int value = name.length();
+        System.out.println(value);
 
-        //String lower = name.toLowerCase();
-        //System.out.println(lower);
+        String lower = name.toLowerCase();
+        System.out.println(lower);
 
-        //String upper = name.toUpperCase();
-        //System.out.println(upper);
+        String upper = name.toUpperCase();
+        System.out.println(upper);
 
-        //String nonTrimmedString ="   Shravan     ";
-        //System.out.println(nonTrimmedString);
-        //String TrimmedString = nonTrimmedString.trim();
-        //System.out.println(TrimmedString);
+        String nonTrimmedString ="   Shravan     ";
+        System.out.println(nonTrimmedString);
+        String TrimmedString = nonTrimmedString.trim();
+        System.out.println(TrimmedString);
 
         System.out.println(name.substring(0,5));
 
