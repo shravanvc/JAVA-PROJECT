@@ -54,22 +54,33 @@ public class Practiceset4 {
 //            tax = tax + 0.2f * (income - 10.0f);
 //        }
 //        System.out.println("the total tax paid by the employee is "+ tax);
-
+//
 
 //        Problem 4
-        Scanner sc = new Scanner(System.in);
-        int day = sc.nextInt();
-        switch (day) {
-            case 1 -> System.out.println("Monday");
-            case 2 -> System.out.println("Tuesday");
-            case 3 -> System.out.println("Wednesday");
-            case 4 -> System.out.println("Thursday");
-            case 5 -> System.out.println("Friday");
-            case 6 -> System.out.println("Saturday");
-            case 7 -> System.out.println("Sunday");
-        }
+//        Scanner sc = new Scanner(System.in);
+//        int day = sc.nextInt();
+//        switch (day) {
+//            case 1 -> System.out.println("Monday");
+//            case 2 -> System.out.println("Tuesday");
+//            case 3 -> System.out.println("Wednesday");
+//            case 4 -> System.out.println("Thursday");
+//            case 5 -> System.out.println("Friday");
+//            case 6 -> System.out.println("Saturday");
+//            case 7 -> System.out.println("Sunday");
+//        }
 
 //        Problem 6
+        Scanner sc = new Scanner(System.in);
+        String website = sc.next();
+        if(website.endsWith(".org")){
+            System.out.println("This is an organization website!");
+        }
+        else if(website.endsWith(".com")){
+            System.out.println("This is an commercial website! ");
+        }
+        else if(website.endsWith(".in")){
+            System.out.println("This is an indian website! ");
+        }
 
     }
 }
